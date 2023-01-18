@@ -50,18 +50,18 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &_link:hover,
-    &_link:focus,
-    &_link:active {
+    &__link:hover,
+    &__link:focus,
+    &__link:active {
         color: $primaryColor;
     }
 
-    &_link--agency-active {
+    &__link--agency-active {
         position: relative;
         color: $primaryColor;
     }
 
-    &_link--agency-active::after {
+    &__link--agency-active::after {
         content: "";
         position: absolute;
         display: block;
@@ -72,12 +72,12 @@
         border-radius: 2px;
     }
         
-    &_link--portfolio-active {
+    &__link--portfolio-active {
         position: relative;
         color: $primaryColor;
     }
 
-    &_link--portfolio-active::after {
+    &__link--portfolio-active::after {
         content: "";
         position: absolute;
         display: block;
