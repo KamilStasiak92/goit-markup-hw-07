@@ -1,4 +1,6 @@
 .clients {
+    @extend .content;
+    @extend .container;
     padding-top: 94px;
     text-align: center;
 

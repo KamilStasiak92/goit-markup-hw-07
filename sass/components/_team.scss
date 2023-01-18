@@ -1,6 +1,11 @@
 .team {
+    @extend .content;
     background-color: $teamBackground;
     padding-top: 54px;
+
+    &__container {
+        @extend .container
+    }
 
     &__header {
         font-size: 2.25rem;

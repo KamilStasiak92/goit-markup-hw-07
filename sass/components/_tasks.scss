@@ -1,6 +1,10 @@
 .tasks {
     padding: 0 15px;
 
+    &__container {
+        @extend .container;
+    }
+    
     &__item {
         font-size: 2.25rem;
         line-height: 1.17;

@@ -1,3 +1,8 @@
+.advantages {
+    @extend .content;
+    @extend .container;
+}
+
 .description-list {
     list-style-type: none;
     display: flex;
